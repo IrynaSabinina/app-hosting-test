@@ -2,7 +2,11 @@
   "name": "@my-nx-next-app/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev"
+  },
   "private": true,
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
@@ -11,7 +15,7 @@
     "@next/eslint-plugin-next": "^15.2.4",
     "@nx/devkit": "20.8.0",
     "@nx/eslint": "20.8.0",
-    "@nx/eslint-plugin": "20.8.0",
+    "@nx/eslint-plugin": "^20.8.0",
     "@nx/js": "20.8.0",
     "@nx/next": "^20.8.0",
     "@nx/playwright": "20.8.0",
@@ -22,8 +26,8 @@
     "@swc/helpers": "~0.5.11",
     "@types/react": "18.3.1",
     "@types/react-dom": "18.3.0",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "^15.2.4",
+    "eslint": "^9.24.0",
+    "eslint-config-next": "^15.3.0",
     "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.1",
