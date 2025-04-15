@@ -12396,6 +12396,16 @@
     "firebase-app-hosting-nextjs": [
       {
         "source": "firebase-app-hosting-nextjs",
+        "target": "npm:next",
+        "type": "static"
+      },
+      {
+        "source": "firebase-app-hosting-nextjs",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "firebase-app-hosting-nextjs",
         "target": "npm:@eslint/eslintrc",
         "type": "static"
       },
@@ -12427,16 +12437,6 @@
       {
         "source": "firebase-app-hosting-nextjs",
         "target": "npm:typescript",
-        "type": "static"
-      },
-      {
-        "source": "firebase-app-hosting-nextjs",
-        "target": "npm:next",
-        "type": "static"
-      },
-      {
-        "source": "firebase-app-hosting-nextjs",
-        "target": "npm:react",
         "type": "static"
       },
       {
@@ -28470,6 +28470,12 @@
       ],
       "partialResults": [
         [
+          "eslint.config.mjs",
+          {
+            "projects": {}
+          }
+        ],
+        [
           "website/eslint.config.js",
           {
             "projects": {
@@ -28568,17 +28574,11 @@
               }
             }
           }
-        ],
-        [
-          "eslint.config.mjs",
-          {
-            "projects": {}
-          }
         ]
       ],
       "name": "AggregateCreateNodesError",
       "pluginIndex": 2
     }
   ],
-  "computedAt": 1744743487964
+  "computedAt": 1744745126677
 }
